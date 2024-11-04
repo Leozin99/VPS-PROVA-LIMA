@@ -1,0 +1,160 @@
+/* Estilo Geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #E0E5E9;
+    color: #2C3E50;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #2C3E50;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Navbar */
+nav {
+    background-color: #1C2833;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ECF0F1;
+    text-decoration: none;
+    padding: 10px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #3498DB;
+    font-weight: bold;
+}
+
+/* Sinopse */
+#sinopse {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Trailer */
+#trailer {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Elenco */
+#elenco {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.card {
+    background-color: #34495E;
+    color: #ECF0F1;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.card img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Curiosidades */
+#curiosidades {
+    padding: 20px;
+    text-align: center;
+}
+
+/* Galeria de Imagens */
+#galeria {
+    padding: 20px;
+    text-align: center;
+}
+
+.galeria-imagem img {
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    transition: transform 0.3s, filter 0.3s;
+}
+
+.galeria-imagem img:hover {
+    transform: scale(1.1);
+    filter: brightness(0.85);
+}
+
+/* Formulário de Contato */
+#contato {
+    padding: 20px;
+    text-align: center;
+}
+
+#contato textarea {
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+    resize: vertical;
+    background-color: #D5D8DC;
+    border: 1px solid #34495E;
+}
+
+#contato button {
+    background-color: #3498DB;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contato button:hover {
+    background-color: #2E86C1;
+}
+
+/* Rodapé */
+footer {
+    background-color: #1C2833;
+    color: #ECF0F1;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+footer a {
+    color: #3498DB;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s;
+}
+
+footer a:hover {
+    color: #85C1E9;
+}
